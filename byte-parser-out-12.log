@@ -74,3 +74,17 @@
 [2017-08-02 00:12:11][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/5ecf7f09cc09/status
 [2017-08-02 00:12:11] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
 [2017-08-02 00:12:11] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":863,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501607531450,"distance_cm":84,"batt_raw":863}
+[2017-08-02 00:22:00][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:22:00] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:22:00] INFO  [arduino]
+      temp = 2801,
+      humid = 3974,
+      pressure = 970,
+      sound = 6332,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-08-02 00:22:00][C*] INFO being published to TRAFFY_V2/master/5ccf7f0950b3/status
+[2017-08-02 00:22:00] INFO forwarding type = PAYLOAD_FAFB_TYPE_DEVICE_REGISTRATION
+[2017-08-02 00:22:00] INFO msg = {"batt":417,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501608120669,"temperature_c":28.01,"sound_db_avg":63.32,"humid_percent_rh":39.74,"pressure_hPa":9.7,"batt_raw":417}
