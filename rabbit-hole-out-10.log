@@ -8,3 +8,13 @@
 2017-08-01 21:26 +07:00: [2017-08-01 21:26:48] INFO starting application v.0.1.4
 2017-08-01 21:26 +07:00: [2017-08-01 21:26:48] INFO server listened on 0.0.0.0:10778
 2017-08-01 21:26 +07:00: [2017-08-01 21:26:48] INFO [winston] mqtt connected.
+2017-08-01 22:05 +07:00: env.LOG_LEVEL = info
+2017-08-01 22:05 +07:00: [2017-08-01 22:05:51] INFO NODE_ENV = staging
+2017-08-01 22:05 +07:00: [2017-08-01 22:05:51] INFO settings
+2017-08-01 22:05 +07:00: { MQTT: 
+   { PUB_TOPIC: 'TRAFFY/TCP_MQTT_FORWARDER/1',
+     CONNECT_STRING: 'mqtt://localhost' },
+  SERVER: { PORT: 10778 } }
+2017-08-01 22:05 +07:00: [2017-08-01 22:05:52] INFO starting application v.0.1.4
+2017-08-01 22:05 +07:00: [2017-08-01 22:05:52] INFO server listened on 0.0.0.0:10778
+2017-08-01 22:05 +07:00: [2017-08-01 22:05:52] INFO [winston] mqtt connected.
