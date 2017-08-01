@@ -1,0 +1,711 @@
+[2017-07-31 00:01:38] INFO  [arduino]
+      temp = 2728,
+      humid = 3309,
+      pressure = 969,
+      sound = 6211,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 00:11:38] INFO  [arduino]
+      temp = 2726,
+      humid = 3373,
+      pressure = 969,
+      sound = 6228,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 00:21:24] INFO  [arduino]
+      temp = 2716,
+      humid = 3533,
+      pressure = 968,
+      sound = 6191,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 00:31:26] INFO  [arduino]
+      temp = 2712,
+      humid = 3667,
+      pressure = 968,
+      sound = 6176,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 00:41:23] INFO  [arduino]
+      temp = 2740,
+      humid = 3928,
+      pressure = 968,
+      sound = 6185,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 00:51:44] INFO  [arduino]
+      temp = 2782,
+      humid = 3696,
+      pressure = 968,
+      sound = 6212,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-31 01:02:52] INFO  [arduino]
+      temp = 2816,
+      humid = 3680,
+      pressure = 968,
+      sound = 6221,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 01:11:33] INFO  [arduino]
+      temp = 2841,
+      humid = 3682,
+      pressure = 968,
+      sound = 6256,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-31 01:21:23] INFO  [arduino]
+      temp = 2858,
+      humid = 3653,
+      pressure = 968,
+      sound = 6260,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 01:31:26] INFO  [arduino]
+      temp = 2870,
+      humid = 3608,
+      pressure = 968,
+      sound = 6261,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 01:41:27] INFO  [arduino]
+      temp = 2874,
+      humid = 3671,
+      pressure = 968,
+      sound = 6264,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 01:51:54] INFO  [arduino]
+      temp = 2881,
+      humid = 3648,
+      pressure = 968,
+      sound = 6270,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 02:01:33] INFO  [arduino]
+      temp = 2890,
+      humid = 3696,
+      pressure = 968,
+      sound = 6285,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 02:11:28] INFO  [arduino]
+      temp = 2896,
+      humid = 3697,
+      pressure = 968,
+      sound = 6303,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 02:21:55] INFO  [arduino]
+      temp = 2901,
+      humid = 3661,
+      pressure = 968,
+      sound = 6307,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 02:31:24] INFO  [arduino]
+      temp = 2903,
+      humid = 3623,
+      pressure = 968,
+      sound = 6298,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 02:41:37] INFO  [arduino]
+      temp = 2904,
+      humid = 3595,
+      pressure = 968,
+      sound = 6302,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 02:51:20] INFO  [arduino]
+      temp = 2905,
+      humid = 3575,
+      pressure = 968,
+      sound = 6300,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 03:02:01] INFO  [arduino]
+      temp = 2908,
+      humid = 3584,
+      pressure = 968,
+      sound = 6301,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-31 03:11:41] INFO  [arduino]
+      temp = 2909,
+      humid = 3591,
+      pressure = 968,
+      sound = 6307,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 03:21:53] INFO  [arduino]
+      temp = 2906,
+      humid = 3711,
+      pressure = 968,
+      sound = 6310,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 03:31:28] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff145d0b00008d0e0000c8030000a4180000a1010000000e302e302c302e302c302e302c323500
+[2017-07-31 03:41:34] INFO  [arduino]
+      temp = 2911,
+      humid = 3713,
+      pressure = 968,
+      sound = 6298,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 03:51:56] INFO  [arduino]
+      temp = 2913,
+      humid = 3704,
+      pressure = 968,
+      sound = 6295,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 04:01:28] INFO  [arduino]
+      temp = 2919,
+      humid = 4199,
+      pressure = 968,
+      sound = 6299,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 04:11:24] INFO  [arduino]
+      temp = 2941,
+      humid = 4162,
+      pressure = 968,
+      sound = 6315,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 04:21:21] INFO  [arduino]
+      temp = 2959,
+      humid = 4320,
+      pressure = 968,
+      sound = 6319,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 04:31:23] INFO  [arduino]
+      temp = 2972,
+      humid = 4921,
+      pressure = 968,
+      sound = 6339,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 04:41:22] INFO  [arduino]
+      temp = 2978,
+      humid = 5153,
+      pressure = 968,
+      sound = 6349,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 04:41:32] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 04:51:24] INFO  [arduino]
+      temp = 2983,
+      humid = 5378,
+      pressure = 968,
+      sound = 6339,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 04:51:34] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:01:39] INFO  [arduino]
+      temp = 2987,
+      humid = 5235,
+      pressure = 968,
+      sound = 6339,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 05:01:49] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:12:25] INFO  [arduino]
+      temp = 2992,
+      humid = 5020,
+      pressure = 968,
+      sound = 6353,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 05:12:35] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:21:24] INFO  [arduino]
+      temp = 2999,
+      humid = 5060,
+      pressure = 968,
+      sound = 6353,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 05:21:33] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:31:33] INFO  [arduino]
+      temp = 3006,
+      humid = 5051,
+      pressure = 968,
+      sound = 6365,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-31 05:31:42] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:41:33] INFO  [arduino]
+      temp = 3011,
+      humid = 5109,
+      pressure = 968,
+      sound = 6344,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 05:41:42] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 05:51:39] INFO  [arduino]
+      temp = 3015,
+      humid = 5187,
+      pressure = 968,
+      sound = 6352,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 05:51:48] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:01:35] INFO  [arduino]
+      temp = 3017,
+      humid = 5173,
+      pressure = 969,
+      sound = 6329,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-31 06:01:44] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:11:55] INFO  [arduino]
+      temp = 3019,
+      humid = 5182,
+      pressure = 969,
+      sound = 6323,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 06:12:04] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:21:22] INFO  [arduino]
+      temp = 3022,
+      humid = 5219,
+      pressure = 969,
+      sound = 6323,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 06:21:31] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:31:53] INFO  [arduino]
+      temp = 3024,
+      humid = 5236,
+      pressure = 969,
+      sound = 6309,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 06:32:02] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:41:32] INFO  [arduino]
+      temp = 3029,
+      humid = 5262,
+      pressure = 969,
+      sound = 6346,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 06:41:41] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 06:51:44] INFO  [arduino]
+      temp = 3034,
+      humid = 5303,
+      pressure = 969,
+      sound = 6373,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 06:51:53] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:03:10] INFO  [arduino]
+      temp = 3038,
+      humid = 5334,
+      pressure = 969,
+      sound = 6380,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 07:03:19] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:11:40] INFO  [arduino]
+      temp = 3045,
+      humid = 5325,
+      pressure = 970,
+      sound = 6361,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 07:11:49] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:21:35] INFO  [arduino]
+      temp = 3052,
+      humid = 5509,
+      pressure = 970,
+      sound = 6308,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,26
+      
+[2017-07-31 07:21:44] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:31:36] INFO  [arduino]
+      temp = 3064,
+      humid = 5518,
+      pressure = 970,
+      sound = 6307,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 07:31:45] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:41:33] INFO  [arduino]
+      temp = 3073,
+      humid = 5436,
+      pressure = 970,
+      sound = 6312,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-31 07:41:42] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 07:51:36] INFO  [arduino]
+      temp = 3094,
+      humid = 5369,
+      pressure = 970,
+      sound = 6296,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 07:51:45] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:01:38] INFO  [arduino]
+      temp = 3114,
+      humid = 5208,
+      pressure = 970,
+      sound = 6304,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 08:01:47] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:11:34] INFO  [arduino]
+      temp = 3127,
+      humid = 5188,
+      pressure = 970,
+      sound = 6316,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 08:11:44] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:21:38] INFO  [arduino]
+      temp = 3143,
+      humid = 5189,
+      pressure = 970,
+      sound = 6292,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 08:21:47] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:31:35] INFO  [arduino]
+      temp = 3155,
+      humid = 5246,
+      pressure = 970,
+      sound = 6304,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 08:31:45] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:41:41] INFO  [arduino]
+      temp = 3167,
+      humid = 5292,
+      pressure = 970,
+      sound = 6285,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 08:41:50] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 08:51:45] INFO  [arduino]
+      temp = 3177,
+      humid = 5480,
+      pressure = 970,
+      sound = 6299,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-31 08:51:55] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 09:02:00] INFO  [arduino]
+      temp = 3183,
+      humid = 5532,
+      pressure = 970,
+      sound = 6282,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 09:02:10] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 09:11:35] INFO  [arduino]
+      temp = 3177,
+      humid = 5648,
+      pressure = 971,
+      sound = 6282,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 09:11:45] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 09:21:38] INFO  [arduino]
+      temp = 3175,
+      humid = 5696,
+      pressure = 971,
+      sound = 6297,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 09:31:35] INFO  [arduino]
+      temp = 3186,
+      humid = 5606,
+      pressure = 971,
+      sound = 6305,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 09:31:44] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 09:41:41] INFO  [arduino]
+      temp = 3183,
+      humid = 5587,
+      pressure = 971,
+      sound = 6305,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-31 09:41:50] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 09:51:38] INFO  [arduino]
+      temp = 3182,
+      humid = 5562,
+      pressure = 971,
+      sound = 6312,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-31 09:51:48] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 10:01:53] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 10:12:05] INFO  [arduino]
+      temp = 3204,
+      humid = 5548,
+      pressure = 970,
+      sound = 6284,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-31 10:12:14] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 10:22:02] INFO  [arduino]
+      temp = 3179,
+      humid = 4997,
+      pressure = 970,
+      sound = 6285,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 10:31:37] INFO  [arduino]
+      temp = 3140,
+      humid = 4516,
+      pressure = 970,
+      sound = 6263,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-31 10:31:46] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 10:41:31] INFO  [arduino]
+      temp = 3092,
+      humid = 4236,
+      pressure = 970,
+      sound = 6254,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 10:51:41] INFO  [arduino]
+      temp = 3058,
+      humid = 4030,
+      pressure = 970,
+      sound = 6246,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-31 11:02:01] INFO  [arduino]
+      temp = 3038,
+      humid = 3833,
+      pressure = 970,
+      sound = 6227,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 11:11:31] INFO  [arduino]
+      temp = 3026,
+      humid = 4047,
+      pressure = 970,
+      sound = 6234,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 11:11:41] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 11:21:31] INFO  [arduino]
+      temp = 3042,
+      humid = 4410,
+      pressure = 970,
+      sound = 6247,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 11:21:40] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 11:31:32] INFO  [arduino]
+      temp = 3074,
+      humid = 4421,
+      pressure = 970,
+      sound = 6267,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 11:31:42] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 11:41:34] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff14
+[2017-07-31 11:41:44] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 11:51:43] INFO  [arduino]
+      temp = 3124,
+      humid = 4626,
+      pressure = 970,
+      sound = 6304,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 11:51:52] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 12:01:42] INFO  [arduino]
+      temp = 3145,
+      humid = 4626,
+      pressure = 970,
+      sound = 6302,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 12:01:52] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 12:11:52] INFO  [arduino]
+      temp = 3153,
+      humid = 4683,
+      pressure = 970,
+      sound = 6283,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 12:12:02] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 12:22:21] INFO  [arduino]
+      temp = 3159,
+      humid = 4706,
+      pressure = 969,
+      sound = 6291,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,26
+      
+[2017-07-31 12:22:31] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 12:31:38] INFO  [arduino]
+      temp = 3168,
+      humid = 4691,
+      pressure = 969,
+      sound = 6294,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-31 12:31:47] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-31 12:41:44] INFO  [arduino]
+      temp = 3128,
+      humid = 4268,
+      pressure = 969,
+      sound = 6279,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      

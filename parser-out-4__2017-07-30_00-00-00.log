@@ -1,0 +1,2141 @@
+[2017-07-29 00:24:24] INFO NODE_ENV = undefined
+[2017-07-29 00:24:24] INFO config 
+{ MQTT: 
+   { SUB_TOPIC: 'CMMC/TCP_MQTT_FORWARDER/1',
+     PUB_PREFIX: 'TRAFFY_V2',
+     HOST: 'localhost',
+     USERNAME: '',
+     PASSWORD: '' } }
+[2017-07-29 00:24:24] INFO starting application esp-now-mqtt-nodejs - v.0.0.1
+[2017-07-29 00:24:24] INFO mqtt connected being subscribed to CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:24:24] INFO send subscriptions to [{"topic":"CMMC/TCP_MQTT_FORWARDER/1","qos":0}]
+[2017-07-29 00:31:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 e9 0a 00 00 3f 0e 00 00 cb 03 00 00 00 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14e90a00003f0e0000cb03000000190000a1010000000e302e302c302e302c302e302c323400ba
+[2017-07-29 00:31:17] INFO  [arduino]
+      temp = 2793,
+      humid = 3647,
+      pressure = 971,
+      sound = 6400,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 00:31:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2793,"humid":3647,"pressure":971,"sound":6400,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501263077945}
+[2017-07-29 00:31:20] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:31:21] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501263081002}
+[2017-07-29 00:31:21] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501263081002}
+[2017-07-29 00:31:23] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:31:23] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":66,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501263083125}
+[2017-07-29 00:31:23] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":66,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501263083125}
+[2017-07-29 00:31:25] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:31:25] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501263085232}
+[2017-07-29 00:31:25] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501263085232}
+[2017-07-29 00:40:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f1 0a 00 00 52 0e 00 00 cb 03 00 00 fe 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f10a0000520e0000cb030000fe180000a0010000000e302e302c302e302c302e302c39390037
+[2017-07-29 00:40:59] INFO  [arduino]
+      temp = 2801,
+      humid = 3666,
+      pressure = 971,
+      sound = 6398,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 00:40:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2801,"humid":3666,"pressure":971,"sound":6398,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501263659734}
+[2017-07-29 00:41:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:41:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501263662790}
+[2017-07-29 00:41:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501263662790}
+[2017-07-29 00:41:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:41:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501263664915}
+[2017-07-29 00:41:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501263664915}
+[2017-07-29 00:41:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:41:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501263667038}
+[2017-07-29 00:41:07] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501263667038}
+[2017-07-29 00:50:54] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f5 0a 00 00 36 0e 00 00 cb 03 00 00 ff 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f50a0000360e0000cb030000ff180000a1010000000e302e302c302e302c302e302c32330056
+[2017-07-29 00:50:54] INFO  [arduino]
+      temp = 2805,
+      humid = 3638,
+      pressure = 971,
+      sound = 6399,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 00:50:54] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2805,"humid":3638,"pressure":971,"sound":6399,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501264254654}
+[2017-07-29 00:50:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:50:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501264257757}
+[2017-07-29 00:50:57] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501264257757}
+[2017-07-29 00:50:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:50:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501264259872}
+[2017-07-29 00:50:59] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501264259872}
+[2017-07-29 00:51:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 00:51:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501264261980}
+[2017-07-29 00:51:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501264261980}
+[2017-07-29 01:00:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f6 0a 00 00 03 0e 00 00 cb 03 00 00 00 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f60a0000030e0000cb03000000190000a0010000000e302e302c302e302c302e302c3939009e
+[2017-07-29 01:00:59] INFO  [arduino]
+      temp = 2806,
+      humid = 3587,
+      pressure = 971,
+      sound = 6400,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 01:00:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2806,"humid":3587,"pressure":971,"sound":6400,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501264859790}
+[2017-07-29 01:01:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:01:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501264862846}
+[2017-07-29 01:01:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501264862846}
+[2017-07-29 01:01:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:01:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501264864981}
+[2017-07-29 01:01:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501264864981}
+[2017-07-29 01:01:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:01:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501264867080}
+[2017-07-29 01:01:07] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501264867080}
+[2017-07-29 01:11:26] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f6 0a 00 00 f5 0d 00 00 ca 03 00 00 06 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f60a0000f50d0000ca03000006190000a1010000000e302e302c302e302c302e302c3235006a
+[2017-07-29 01:11:26] INFO  [arduino]
+      temp = 2806,
+      humid = 3573,
+      pressure = 970,
+      sound = 6406,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 01:11:26] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2806,"humid":3573,"pressure":970,"sound":6406,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501265486298}
+[2017-07-29 01:11:29] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:11:29] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501265489370}
+[2017-07-29 01:11:29] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501265489370}
+[2017-07-29 01:11:31] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:11:31] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501265491541}
+[2017-07-29 01:11:31] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501265491541}
+[2017-07-29 01:11:33] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:11:33] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501265493660}
+[2017-07-29 01:11:33] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501265493660}
+[2017-07-29 01:21:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f4 0a 00 00 28 0e 00 00 ca 03 00 00 fe 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f40a0000280e0000ca030000fe180000a1010000000e302e302c302e302c302e302c3235004f
+[2017-07-29 01:21:00] INFO  [arduino]
+      temp = 2804,
+      humid = 3624,
+      pressure = 970,
+      sound = 6398,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 01:21:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2804,"humid":3624,"pressure":970,"sound":6398,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501266060766}
+[2017-07-29 01:21:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:21:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501266063805}
+[2017-07-29 01:21:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501266063805}
+[2017-07-29 01:21:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:21:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501266065923}
+[2017-07-29 01:21:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501266065923}
+[2017-07-29 01:21:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:21:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501266068043}
+[2017-07-29 01:21:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501266068043}
+[2017-07-29 01:30:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f7 0a 00 00 4b 0e 00 00 ca 03 00 00 f8 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f70a00004b0e0000ca030000f8180000a1010000000e302e302c302e302c302e302c3939002e
+[2017-07-29 01:30:58] INFO  [arduino]
+      temp = 2807,
+      humid = 3659,
+      pressure = 970,
+      sound = 6392,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 01:30:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2807,"humid":3659,"pressure":970,"sound":6392,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501266658725}
+[2017-07-29 01:31:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:31:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501266661735}
+[2017-07-29 01:31:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501266661735}
+[2017-07-29 01:31:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:31:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501266663855}
+[2017-07-29 01:31:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501266663855}
+[2017-07-29 01:31:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:31:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501266665977}
+[2017-07-29 01:31:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501266665977}
+[2017-07-29 01:41:23] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 f8 0a 00 00 56 0e 00 00 ca 03 00 00 07 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14f80a0000560e0000ca03000007190000a1010000000e302e302c302e302c302e302c323500c5
+[2017-07-29 01:41:23] INFO  [arduino]
+      temp = 2808,
+      humid = 3670,
+      pressure = 970,
+      sound = 6407,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 01:41:23] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2808,"humid":3670,"pressure":970,"sound":6407,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501267283556}
+[2017-07-29 01:41:26] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:41:26] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501267286695}
+[2017-07-29 01:41:26] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501267286695}
+[2017-07-29 01:41:28] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:41:28] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501267288821}
+[2017-07-29 01:41:28] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501267288821}
+[2017-07-29 01:41:30] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:41:30] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501267290930}
+[2017-07-29 01:41:30] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501267290930}
+[2017-07-29 01:50:55] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fd 0a 00 00 d0 0e 00 00 ca 03 00 00 fe 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fd0a0000d00e0000ca030000fe180000a1010000000e302e302c302e302c302e302c393900b9
+[2017-07-29 01:50:55] INFO  [arduino]
+      temp = 2813,
+      humid = 3792,
+      pressure = 970,
+      sound = 6398,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 01:50:55] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2813,"humid":3792,"pressure":970,"sound":6398,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501267855523}
+[2017-07-29 01:50:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:50:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501267858616}
+[2017-07-29 01:50:58] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501267858616}
+[2017-07-29 01:51:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:51:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501267860735}
+[2017-07-29 01:51:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501267860735}
+[2017-07-29 01:51:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 01:51:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501267862868}
+[2017-07-29 01:51:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501267862868}
+[2017-07-29 02:00:53] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 09 0b 00 00 52 10 00 00 ca 03 00 00 f8 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14090b000052100000ca030000f8180000a1010000000e302e302c302e302c302e302c393900d6
+[2017-07-29 02:00:53] INFO  [arduino]
+      temp = 2825,
+      humid = 4178,
+      pressure = 970,
+      sound = 6392,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 02:00:53] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2825,"humid":4178,"pressure":970,"sound":6392,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501268453268}
+[2017-07-29 02:00:56] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:00:56] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501268456346}
+[2017-07-29 02:00:56] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501268456346}
+[2017-07-29 02:00:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:00:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501268458462}
+[2017-07-29 02:00:58] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501268458462}
+[2017-07-29 02:01:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:01:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501268460598}
+[2017-07-29 02:01:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501268460598}
+[2017-07-29 02:10:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 14 0b 00 00 88 11 00 00 ca 03 00 00 fb 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14140b000088110000ca030000fb180000a0010000000e302e302c302e302c302e302c32330013
+[2017-07-29 02:10:58] INFO  [arduino]
+      temp = 2836,
+      humid = 4488,
+      pressure = 970,
+      sound = 6395,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 02:10:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2836,"humid":4488,"pressure":970,"sound":6395,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501269058190}
+[2017-07-29 02:11:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:11:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501269061309}
+[2017-07-29 02:11:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501269061309}
+[2017-07-29 02:11:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:11:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501269063455}
+[2017-07-29 02:11:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501269063455}
+[2017-07-29 02:11:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:11:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501269065549}
+[2017-07-29 02:11:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501269065549}
+[2017-07-29 02:20:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 1e 0b 00 00 2a 12 00 00 ca 03 00 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 2e 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff141e0b00002a120000ca0300190000a1010000000e302e302c302e302c302e302c3235004d
+[2017-07-29 02:20:57] INFO  [arduino]
+      temp = 2846,
+      humid = 4650,
+      pressure = 419431370,
+      sound = 27328512,
+      batt = 234881024
+      gpsBytesLen = 46
+      gpsString= 0,0.0,0.0,25 M
+      
+[2017-07-29 02:20:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":234881024,"temp":2846,"humid":4650,"pressure":419431370,"sound":27328512,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0,0.0,0.0,25\u0000M","_time":1501269657133}
+[2017-07-29 02:21:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:21:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501269660269}
+[2017-07-29 02:21:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501269660269}
+[2017-07-29 02:21:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:21:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501269662385}
+[2017-07-29 02:21:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501269662385}
+[2017-07-29 02:21:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:21:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":54,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501269664494}
+[2017-07-29 02:21:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":54,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501269664494}
+[2017-07-29 02:21:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:21:06] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 02:30:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 25 0b 00 00 d4 12 00 00 ca 03 00 00 12 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14250b0000d4120000ca03000012190000a1010000000e302e302c302e302c302e302c32350092
+[2017-07-29 02:30:58] INFO  [arduino]
+      temp = 2853,
+      humid = 4820,
+      pressure = 970,
+      sound = 6418,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 02:30:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2853,"humid":4820,"pressure":970,"sound":6418,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501270258229}
+[2017-07-29 02:31:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:31:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501270261330}
+[2017-07-29 02:31:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501270261330}
+[2017-07-29 02:31:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:31:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501270263450}
+[2017-07-29 02:31:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501270263450}
+[2017-07-29 02:31:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:31:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501270265587}
+[2017-07-29 02:31:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501270265587}
+[2017-07-29 02:41:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 2a 0b 00 00 4b 13 00 00 ca 03 00 00 0e 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff142a0b00004b130000ca0300000e190000a0010000000e302e302c302e302c302e302c32330018
+[2017-07-29 02:41:10] INFO  [arduino]
+      temp = 2858,
+      humid = 4939,
+      pressure = 970,
+      sound = 6414,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 02:41:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2858,"humid":4939,"pressure":970,"sound":6414,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501270870387}
+[2017-07-29 02:41:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:41:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501270873486}
+[2017-07-29 02:41:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501270873486}
+[2017-07-29 02:41:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:41:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501270875613}
+[2017-07-29 02:41:15] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501270875613}
+[2017-07-29 02:41:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:41:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501270877749}
+[2017-07-29 02:41:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501270877749}
+[2017-07-29 02:50:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 2f 0b 00 00 ae 13 00 00 ca 03 00 00 20 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff142f0b0000ae130000ca03000020190000a0010000000e302e302c302e302c302e302c323300d6
+[2017-07-29 02:50:57] INFO  [arduino]
+      temp = 2863,
+      humid = 5038,
+      pressure = 970,
+      sound = 6432,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 02:50:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2863,"humid":5038,"pressure":970,"sound":6432,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501271457995}
+[2017-07-29 02:51:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:51:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501271461097}
+[2017-07-29 02:51:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501271461097}
+[2017-07-29 02:51:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:51:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501271463229}
+[2017-07-29 02:51:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501271463229}
+[2017-07-29 02:51:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 02:51:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":47,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501271465362}
+[2017-07-29 02:51:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":47,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501271465362}
+[2017-07-29 03:01:32] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 32 0b 00 00 ec 13 00 00 ca 03 00 00 13 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14320b0000ec130000ca03000013190000a1010000000e302e302c302e302c302e302c393900ba
+[2017-07-29 03:01:32] INFO  [arduino]
+      temp = 2866,
+      humid = 5100,
+      pressure = 970,
+      sound = 6419,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 03:01:32] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2866,"humid":5100,"pressure":970,"sound":6419,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501272092228}
+[2017-07-29 03:01:35] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:01:35] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501272095315}
+[2017-07-29 03:01:35] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501272095315}
+[2017-07-29 03:01:37] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:01:37] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501272097442}
+[2017-07-29 03:01:37] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501272097442}
+[2017-07-29 03:01:39] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:01:39] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501272099635}
+[2017-07-29 03:01:39] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501272099635}
+[2017-07-29 03:11:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 34 0b 00 00 17 14 00 00 ca 03 00 00 17 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14340b000017140000ca03000017190000a1010000000e302e302c302e302c302e302c39390044
+[2017-07-29 03:11:10] INFO  [arduino]
+      temp = 2868,
+      humid = 5143,
+      pressure = 970,
+      sound = 6423,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 03:11:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2868,"humid":5143,"pressure":970,"sound":6423,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501272670284}
+[2017-07-29 03:11:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:11:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501272673357}
+[2017-07-29 03:11:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501272673357}
+[2017-07-29 03:11:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:11:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501272675443}
+[2017-07-29 03:11:15] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501272675443}
+[2017-07-29 03:11:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:11:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":52,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501272677574}
+[2017-07-29 03:11:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":52,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501272677574}
+[2017-07-29 03:20:55] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 33 0b 00 00 46 14 00 00 c9 03 00 00 13 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14330b000046140000c903000013190000a1010000000e302e302c302e302c302e302c39390015
+[2017-07-29 03:20:55] INFO  [arduino]
+      temp = 2867,
+      humid = 5190,
+      pressure = 969,
+      sound = 6419,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 03:20:55] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2867,"humid":5190,"pressure":969,"sound":6419,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501273255162}
+[2017-07-29 03:20:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:20:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501273258254}
+[2017-07-29 03:20:58] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501273258254}
+[2017-07-29 03:21:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:21:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501273260376}
+[2017-07-29 03:21:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501273260376}
+[2017-07-29 03:21:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:21:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501273262496}
+[2017-07-29 03:21:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501273262496}
+[2017-07-29 03:31:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 36 0b 00 00 3b 14 00 00 c9 03 00 00 11 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14360b00003b140000c903000011190000a1010000000e302e302c302e302c302e302c32350068
+[2017-07-29 03:31:02] INFO  [arduino]
+      temp = 2870,
+      humid = 5179,
+      pressure = 969,
+      sound = 6417,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 03:31:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2870,"humid":5179,"pressure":969,"sound":6417,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501273862037}
+[2017-07-29 03:31:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:31:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501273865093}
+[2017-07-29 03:31:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501273865093}
+[2017-07-29 03:31:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:31:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501273867209}
+[2017-07-29 03:31:07] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501273867209}
+[2017-07-29 03:31:09] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:31:09] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501273869309}
+[2017-07-29 03:31:09] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501273869309}
+[2017-07-29 03:41:43] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 38 0b 00 00 7d 14 00 00 c9 03 00 00 19 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14380b00007d140000c903000019190000a0010000000e302e302c302e302c302e302c3233002f
+[2017-07-29 03:41:43] INFO  [arduino]
+      temp = 2872,
+      humid = 5245,
+      pressure = 969,
+      sound = 6425,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 03:41:43] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2872,"humid":5245,"pressure":969,"sound":6425,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501274503659}
+[2017-07-29 03:41:46] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:41:46] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501274506737}
+[2017-07-29 03:41:46] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501274506737}
+[2017-07-29 03:41:48] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:41:48] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501274508873}
+[2017-07-29 03:41:48] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501274508873}
+[2017-07-29 03:41:50] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:41:50] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501274510967}
+[2017-07-29 03:41:50] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501274510967}
+[2017-07-29 03:51:54] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 39 0b 00 00 cd 14 00 00 c9 03 00 00 19 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14390b0000cd140000c903000019190000a1010000000e302e302c302e302c302e302c3233009f
+[2017-07-29 03:51:54] INFO  [arduino]
+      temp = 2873,
+      humid = 5325,
+      pressure = 969,
+      sound = 6425,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 03:51:54] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2873,"humid":5325,"pressure":969,"sound":6425,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501275114078}
+[2017-07-29 03:51:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:51:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501275117186}
+[2017-07-29 03:51:57] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501275117186}
+[2017-07-29 03:51:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:51:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":65,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501275119277}
+[2017-07-29 03:51:59] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":65,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501275119277}
+[2017-07-29 03:52:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 03:52:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501275121397}
+[2017-07-29 03:52:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501275121397}
+[2017-07-29 04:01:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3c 0b 00 00 c6 14 00 00 c9 03 00 00 22 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143c0b0000c6140000c903000022190000a0010000000e302e302c302e302c302e302c323500ad
+[2017-07-29 04:01:05] INFO  [arduino]
+      temp = 2876,
+      humid = 5318,
+      pressure = 969,
+      sound = 6434,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 04:01:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2876,"humid":5318,"pressure":969,"sound":6434,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501275665120}
+[2017-07-29 04:01:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:01:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501275668172}
+[2017-07-29 04:01:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501275668172}
+[2017-07-29 04:01:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:01:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501275670327}
+[2017-07-29 04:01:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501275670327}
+[2017-07-29 04:01:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:01:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501275672412}
+[2017-07-29 04:01:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501275672412}
+[2017-07-29 04:11:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3d 0b 00 00 ee 14 00 00 c9 03 00 00 20 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143d0b0000ee140000c903000020190000a0010000000e302e302c302e302c302e302c32320081
+[2017-07-29 04:11:03] INFO  [arduino]
+      temp = 2877,
+      humid = 5358,
+      pressure = 969,
+      sound = 6432,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 04:11:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2877,"humid":5358,"pressure":969,"sound":6432,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,22","_time":1501276263749}
+[2017-07-29 04:11:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:11:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501276266846}
+[2017-07-29 04:11:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501276266846}
+[2017-07-29 04:11:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:11:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501276268961}
+[2017-07-29 04:11:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501276268961}
+[2017-07-29 04:11:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:11:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501276271082}
+[2017-07-29 04:11:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501276271082}
+[2017-07-29 04:21:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3d 0b 00 00 00 15 00 00 c9 03 00 00 1e 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143d0b000000150000c90300001e190000a1010000000e302e302c302e302c302e302c32330050
+[2017-07-29 04:21:01] INFO  [arduino]
+      temp = 2877,
+      humid = 5376,
+      pressure = 969,
+      sound = 6430,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 04:21:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2877,"humid":5376,"pressure":969,"sound":6430,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501276861056}
+[2017-07-29 04:21:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:21:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501276864150}
+[2017-07-29 04:21:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501276864150}
+[2017-07-29 04:21:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:21:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501276866273}
+[2017-07-29 04:21:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501276866273}
+[2017-07-29 04:21:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:21:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501276868412}
+[2017-07-29 04:21:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501276868412}
+[2017-07-29 04:31:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3b 0b 00 00 6d 15 00 00 c9 03 00 00 15 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143b0b00006d150000c903000015190000a1010000000e302e302c302e302c302e302c32330030
+[2017-07-29 04:31:05] INFO  [arduino]
+      temp = 2875,
+      humid = 5485,
+      pressure = 969,
+      sound = 6421,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 04:31:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2875,"humid":5485,"pressure":969,"sound":6421,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501277465059}
+[2017-07-29 04:31:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:31:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501277468138}
+[2017-07-29 04:31:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501277468138}
+[2017-07-29 04:31:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:31:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":68,"batt":873,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501277470261}
+[2017-07-29 04:31:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":68,"batt":873,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501277470261}
+[2017-07-29 04:31:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:31:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501277472378}
+[2017-07-29 04:31:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501277472378}
+[2017-07-29 04:41:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3b 0b 00 00 11 15 00 00 c9 03 00 00 15 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143b0b000011150000c903000015190000a0010000000e302e302c302e302c302e302c3233004d
+[2017-07-29 04:41:03] INFO  [arduino]
+      temp = 2875,
+      humid = 5393,
+      pressure = 969,
+      sound = 6421,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 04:41:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2875,"humid":5393,"pressure":969,"sound":6421,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501278063775}
+[2017-07-29 04:41:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:41:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501278066845}
+[2017-07-29 04:41:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501278066845}
+[2017-07-29 04:41:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:41:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501278068964}
+[2017-07-29 04:41:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501278068964}
+[2017-07-29 04:41:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:41:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501278071084}
+[2017-07-29 04:41:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501278071084}
+[2017-07-29 04:51:20] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3b 0b 00 00 1f 15 00 00 c9 03 00 00 17 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143b0b00001f150000c903000017190000a1010000000e302e302c302e302c302e302c32330040
+[2017-07-29 04:51:20] INFO  [arduino]
+      temp = 2875,
+      humid = 5407,
+      pressure = 969,
+      sound = 6423,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 04:51:20] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2875,"humid":5407,"pressure":969,"sound":6423,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501278680566}
+[2017-07-29 04:51:23] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:51:23] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501278683671}
+[2017-07-29 04:51:23] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501278683671}
+[2017-07-29 04:51:25] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:51:25] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":873,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501278685790}
+[2017-07-29 04:51:25] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":873,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501278685790}
+[2017-07-29 04:51:27] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 04:51:27] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501278687910}
+[2017-07-29 04:51:27] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501278687910}
+[2017-07-29 05:01:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3b 0b 00 00 54 15 00 00 ca 03 00 00 23 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143b0b000054150000ca03000023190000a1010000000e302e302c302e302c302e302c3233003c
+[2017-07-29 05:01:07] INFO  [arduino]
+      temp = 2875,
+      humid = 5460,
+      pressure = 970,
+      sound = 6435,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 05:01:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2875,"humid":5460,"pressure":970,"sound":6435,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501279267074}
+[2017-07-29 05:01:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:01:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501279270181}
+[2017-07-29 05:01:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501279270181}
+[2017-07-29 05:01:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:01:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":67,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501279272301}
+[2017-07-29 05:01:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":67,"batt":870,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501279272301}
+[2017-07-29 05:01:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:01:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501279274419}
+[2017-07-29 05:01:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501279274419}
+[2017-07-29 05:11:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 3b 0b 00 00 92 15 00 00 ca 03 00 00 0b 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff143b0b000092150000ca0300000b190000a1010000000e302e302c302e302c302e302c323400d5
+[2017-07-29 05:11:00] INFO  [arduino]
+      temp = 2875,
+      humid = 5522,
+      pressure = 970,
+      sound = 6411,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 05:11:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2875,"humid":5522,"pressure":970,"sound":6411,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501279860515}
+[2017-07-29 05:11:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:11:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501279863598}
+[2017-07-29 05:11:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501279863598}
+[2017-07-29 05:11:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:11:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501279865721}
+[2017-07-29 05:11:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501279865721}
+[2017-07-29 05:11:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:11:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501279867838}
+[2017-07-29 05:11:07] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501279867838}
+[2017-07-29 05:21:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 38 0b 00 00 76 15 00 00 ca 03 00 00 10 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14380b000076150000ca03000010190000a1010000000e302e302c302e302c302e302c3233002e
+[2017-07-29 05:21:04] INFO  [arduino]
+      temp = 2872,
+      humid = 5494,
+      pressure = 970,
+      sound = 6416,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 05:21:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2872,"humid":5494,"pressure":970,"sound":6416,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501280464949}
+[2017-07-29 05:21:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:21:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":867,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501280468024}
+[2017-07-29 05:21:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":867,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501280468024}
+[2017-07-29 05:21:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:21:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501280470153}
+[2017-07-29 05:21:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501280470153}
+[2017-07-29 05:21:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:21:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501280472273}
+[2017-07-29 05:21:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501280472273}
+[2017-07-29 05:30:56] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 36 0b 00 00 82 15 00 00 ca 03 00 00 0d 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14360b000082150000ca0300000d190000a1010000000e302e302c302e302c302e302c323300c9
+[2017-07-29 05:30:56] INFO  [arduino]
+      temp = 2870,
+      humid = 5506,
+      pressure = 970,
+      sound = 6413,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 05:30:56] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2870,"humid":5506,"pressure":970,"sound":6413,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501281056834}
+[2017-07-29 05:30:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:30:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":81,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501281059923}
+[2017-07-29 05:30:59] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":81,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501281059923}
+[2017-07-29 05:31:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:31:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501281062044}
+[2017-07-29 05:31:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501281062044}
+[2017-07-29 05:31:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:31:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501281064181}
+[2017-07-29 05:31:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501281064181}
+[2017-07-29 05:41:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 33 0b 00 00 59 15 00 00 ca 03 00 00 0c 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14330b000059150000ca0300000c190000a1010000000e302e302c302e302c302e302c32330016
+[2017-07-29 05:41:11] INFO  [arduino]
+      temp = 2867,
+      humid = 5465,
+      pressure = 970,
+      sound = 6412,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 05:41:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2867,"humid":5465,"pressure":970,"sound":6412,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501281671740}
+[2017-07-29 05:41:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:41:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":80,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501281674871}
+[2017-07-29 05:41:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":80,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501281674871}
+[2017-07-29 05:41:16] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:41:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501281677003}
+[2017-07-29 05:41:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501281677003}
+[2017-07-29 05:41:19] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:41:19] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501281679115}
+[2017-07-29 05:41:19] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501281679115}
+[2017-07-29 05:51:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 2f 0b 00 00 36 15 00 00 ca 03 00 00 05 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff142f0b000036150000ca03000005190000a0010000000e302e302c302e302c302e302c3233006d
+[2017-07-29 05:51:10] INFO  [arduino]
+      temp = 2863,
+      humid = 5430,
+      pressure = 970,
+      sound = 6405,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 05:51:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2863,"humid":5430,"pressure":970,"sound":6405,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501282270587}
+[2017-07-29 05:51:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:51:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501282273664}
+[2017-07-29 05:51:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501282273664}
+[2017-07-29 05:51:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:51:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501282275780}
+[2017-07-29 05:51:15] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501282275780}
+[2017-07-29 05:51:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 05:51:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501282277924}
+[2017-07-29 05:51:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501282277924}
+[2017-07-29 06:01:27] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 28 0b 00 00 09 15 00 00 ca 03 00 00 00 19 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14280b000009150000ca03000000190000a0010000000e302e302c302e302c302e302c32340057
+[2017-07-29 06:01:27] INFO  [arduino]
+      temp = 2856,
+      humid = 5385,
+      pressure = 970,
+      sound = 6400,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 06:01:27] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2856,"humid":5385,"pressure":970,"sound":6400,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501282887675}
+[2017-07-29 06:01:30] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:01:30] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501282890780}
+[2017-07-29 06:01:30] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501282890780}
+[2017-07-29 06:01:32] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:01:32] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501282892883}
+[2017-07-29 06:01:32] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501282892883}
+[2017-07-29 06:01:35] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:01:35] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501282895005}
+[2017-07-29 06:01:35] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501282895005}
+[2017-07-29 06:11:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 1f 0b 00 00 df 13 00 00 ca 03 00 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 2e 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff141f0b0000df130000ca0300190000a1010000000e302e302c302e302c302e302c323300be
+[2017-07-29 06:11:15] INFO  [arduino]
+      temp = 2847,
+      humid = 5087,
+      pressure = 419431370,
+      sound = 27328512,
+      batt = 234881024
+      gpsBytesLen = 46
+      gpsString= 0,0.0,0.0,23 �
+      
+[2017-07-29 06:11:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":234881024,"temp":2847,"humid":5087,"pressure":419431370,"sound":27328512,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0,0.0,0.0,23\u0000�","_time":1501283475146}
+[2017-07-29 06:11:18] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:11:18] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501283478240}
+[2017-07-29 06:11:18] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501283478240}
+[2017-07-29 06:11:20] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:11:20] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501283480334}
+[2017-07-29 06:11:20] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501283480334}
+[2017-07-29 06:11:22] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:11:22] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501283482467}
+[2017-07-29 06:11:22] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501283482467}
+[2017-07-29 06:21:26] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 14 0b 00 00 17 13 00 00 ca 03 00 00 0c 19 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14140b000017130000ca0300000c190000a1010000000e302e302c302e302c302e302c32330079
+[2017-07-29 06:21:26] INFO  [arduino]
+      temp = 2836,
+      humid = 4887,
+      pressure = 970,
+      sound = 6412,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 06:21:26] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2836,"humid":4887,"pressure":970,"sound":6412,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501284086314}
+[2017-07-29 06:21:29] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:21:29] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501284089406}
+[2017-07-29 06:21:29] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501284089406}
+[2017-07-29 06:21:31] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:21:31] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501284091523}
+[2017-07-29 06:21:31] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501284091523}
+[2017-07-29 06:21:33] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:21:33] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501284093639}
+[2017-07-29 06:21:33] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501284093639}
+[2017-07-29 06:30:56] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 0c 0b 00 00 82 12 00 00 ca 03 00 00 fc 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff140c0b000082120000ca030000fc180000a1010000000e302e302c302e302c302e302c32320005
+[2017-07-29 06:30:56] INFO  [arduino]
+      temp = 2828,
+      humid = 4738,
+      pressure = 970,
+      sound = 6396,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 06:30:56] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2828,"humid":4738,"pressure":970,"sound":6396,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,22","_time":1501284656441}
+[2017-07-29 06:30:59] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:30:59] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501284659567}
+[2017-07-29 06:30:59] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501284659567}
+[2017-07-29 06:31:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:31:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501284661666}
+[2017-07-29 06:31:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501284661666}
+[2017-07-29 06:31:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:31:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501284663788}
+[2017-07-29 06:31:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501284663788}
+[2017-07-29 06:40:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 07 0b 00 12 00 00 ca 03 00 00 f8 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 2e 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14070b00120000ca030000f8180000a0010000000e302e302c302e302c302e302c32340087
+[2017-07-29 06:40:58] INFO  [arduino]
+      temp = 301992711,
+      humid = 63569920,
+      pressure = 418906112,
+      sound = 27262976,
+      batt = 234881024
+      gpsBytesLen = 46
+      gpsString= 0,0.0,0.0,24 �
+      
+[2017-07-29 06:40:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":234881024,"temp":301992711,"humid":63569920,"pressure":418906112,"sound":27262976,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0,0.0,0.0,24\u0000�","_time":1501285258497}
+[2017-07-29 06:41:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:41:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":81,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501285261603}
+[2017-07-29 06:41:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":81,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501285261603}
+[2017-07-29 06:41:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:41:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501285263710}
+[2017-07-29 06:41:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501285263710}
+[2017-07-29 06:41:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:41:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501285265830}
+[2017-07-29 06:41:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501285265830}
+[2017-07-29 06:51:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 03 0b 00 00 6e 11 00 00 ca 03 00 00 fc 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14030b00006e110000ca030000fc180000a1010000000e302e302c302e302c302e302c393900e5
+[2017-07-29 06:51:10] INFO  [arduino]
+      temp = 2819,
+      humid = 4462,
+      pressure = 970,
+      sound = 6396,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 06:51:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2819,"humid":4462,"pressure":970,"sound":6396,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501285870289}
+[2017-07-29 06:51:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:51:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501285873380}
+[2017-07-29 06:51:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501285873380}
+[2017-07-29 06:51:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:51:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501285875486}
+[2017-07-29 06:51:15] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501285875486}
+[2017-07-29 06:51:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 06:51:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501285877617}
+[2017-07-29 06:51:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501285877617}
+[2017-07-29 07:01:27] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 00 0b 00 00 e7 10 00 00 ca 03 00 00 ef 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14000b0000e7100000ca030000ef180000a1010000000e302e302c302e302c302e302c3939007d
+[2017-07-29 07:01:27] INFO  [arduino]
+      temp = 2816,
+      humid = 4327,
+      pressure = 970,
+      sound = 6383,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 07:01:27] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2816,"humid":4327,"pressure":970,"sound":6383,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501286487291}
+[2017-07-29 07:01:30] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:01:30] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501286490455}
+[2017-07-29 07:01:30] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501286490455}
+[2017-07-29 07:01:32] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:01:32] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501286492525}
+[2017-07-29 07:01:32] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501286492525}
+[2017-07-29 07:01:34] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:01:34] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501286494662}
+[2017-07-29 07:01:34] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501286494662}
+[2017-07-29 07:11:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fe 0a 00 00 6f 10 00 00 ca 03 00 00 eb 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fe0a00006f100000ca030000eb180000a0010000000e302e302c302e302c302e302c3939000f
+[2017-07-29 07:11:05] INFO  [arduino]
+      temp = 2814,
+      humid = 4207,
+      pressure = 970,
+      sound = 6379,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 07:11:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2814,"humid":4207,"pressure":970,"sound":6379,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501287065186}
+[2017-07-29 07:11:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:11:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501287068285}
+[2017-07-29 07:11:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501287068285}
+[2017-07-29 07:11:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:11:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501287070405}
+[2017-07-29 07:11:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501287070405}
+[2017-07-29 07:11:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:11:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501287072525}
+[2017-07-29 07:11:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501287072525}
+[2017-07-29 07:20:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fe 0a 00 00 f9 0f 00 00 ca 03 00 00 e0 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fe0a0000f90f0000ca030000e0180000a1010000000e302e302c302e302c302e302c3939008c
+[2017-07-29 07:20:57] INFO  [arduino]
+      temp = 2814,
+      humid = 4089,
+      pressure = 970,
+      sound = 6368,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 07:20:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2814,"humid":4089,"pressure":970,"sound":6368,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501287657195}
+[2017-07-29 07:21:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:21:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501287660313}
+[2017-07-29 07:21:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501287660313}
+[2017-07-29 07:21:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:21:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501287662412}
+[2017-07-29 07:21:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501287662412}
+[2017-07-29 07:21:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:21:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501287664530}
+[2017-07-29 07:21:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501287664530}
+[2017-07-29 07:31:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fc 0a 00 00 b8 0f 00 00 cb 03 00 00 cd 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fc0a0000b80f0000cb030000cd180000a1010000000e302e302c302e302c302e302c393900e3
+[2017-07-29 07:31:17] INFO  [arduino]
+      temp = 2812,
+      humid = 4024,
+      pressure = 971,
+      sound = 6349,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 07:31:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2812,"humid":4024,"pressure":971,"sound":6349,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501288277487}
+[2017-07-29 07:31:20] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:31:20] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501288280594}
+[2017-07-29 07:31:20] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501288280594}
+[2017-07-29 07:31:22] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:31:22] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501288282696}
+[2017-07-29 07:31:22] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501288282696}
+[2017-07-29 07:31:24] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:31:24] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501288284788}
+[2017-07-29 07:31:24] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501288284788}
+[2017-07-29 07:41:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fc 0a 00 00 7d 0f 00 00 cb 03 00 00 cc 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fc0a00007d0f0000cb030000cc180000a1010000000e302e302c302e302c302e302c39390027
+[2017-07-29 07:41:08] INFO  [arduino]
+      temp = 2812,
+      humid = 3965,
+      pressure = 971,
+      sound = 6348,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 07:41:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2812,"humid":3965,"pressure":971,"sound":6348,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501288868970}
+[2017-07-29 07:41:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:41:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501288872099}
+[2017-07-29 07:41:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501288872099}
+[2017-07-29 07:41:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:41:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501288874194}
+[2017-07-29 07:41:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501288874194}
+[2017-07-29 07:41:16] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:41:16] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501288876313}
+[2017-07-29 07:41:16] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501288876313}
+[2017-07-29 07:51:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fb 0a 00 00 97 0f 00 00 cb 03 00 00 cd 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fb0a0000970f0000cb030000cd180000a0010000000e302e302c302e302c302e302c323500cd
+[2017-07-29 07:51:11] INFO  [arduino]
+      temp = 2811,
+      humid = 3991,
+      pressure = 971,
+      sound = 6349,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 07:51:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2811,"humid":3991,"pressure":971,"sound":6349,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501289471061}
+[2017-07-29 07:51:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:51:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501289474150}
+[2017-07-29 07:51:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501289474150}
+[2017-07-29 07:51:16] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:51:16] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501289476295}
+[2017-07-29 07:51:16] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501289476295}
+[2017-07-29 07:51:18] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 07:51:18] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501289478398}
+[2017-07-29 07:51:18] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501289478398}
+[2017-07-29 08:01:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 fa 0a 00 00 7e 0f 00 00 cb 03 00 00 c9 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14fa0a00007e0f0000cb030000c9180000a1010000000e302e302c302e302c302e302c39390027
+[2017-07-29 08:01:06] INFO  [arduino]
+      temp = 2810,
+      humid = 3966,
+      pressure = 971,
+      sound = 6345,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 08:01:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2810,"humid":3966,"pressure":971,"sound":6345,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501290066137}
+[2017-07-29 08:01:09] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:01:09] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501290069235}
+[2017-07-29 08:01:09] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501290069235}
+[2017-07-29 08:01:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:01:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501290071354}
+[2017-07-29 08:01:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501290071354}
+[2017-07-29 08:01:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:01:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501290073477}
+[2017-07-29 08:01:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501290073477}
+[2017-07-29 08:11:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 00 0b 00 00 09 0f 00 00 cb 03 00 00 c5 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14000b0000090f0000cb030000c5180000a1010000000e302e302c302e302c302e302c393900a7
+[2017-07-29 08:11:05] INFO  [arduino]
+      temp = 2816,
+      humid = 3849,
+      pressure = 971,
+      sound = 6341,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 08:11:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2816,"humid":3849,"pressure":971,"sound":6341,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501290665102}
+[2017-07-29 08:11:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:11:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":867,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501290668173}
+[2017-07-29 08:11:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":867,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501290668173}
+[2017-07-29 08:11:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:11:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501290670288}
+[2017-07-29 08:11:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501290670288}
+[2017-07-29 08:11:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:11:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501290672408}
+[2017-07-29 08:11:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501290672408}
+[2017-07-29 08:21:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 0b 00 00 a7 0e 00 00 cb 03 00 00 b5 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 2e 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff0b0000a70e0000cb030000b5180000a1010000000e302e302c302e302c302e302c32330071
+[2017-07-29 08:21:06] INFO  [arduino]
+      temp = 245825536,
+      humid = 63635456,
+      pressure = 414515200,
+      sound = 27328512,
+      batt = 234881024
+      gpsBytesLen = 46
+      gpsString= 0,0.0,0.0,23 q
+      
+[2017-07-29 08:21:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":234881024,"temp":245825536,"humid":63635456,"pressure":414515200,"sound":27328512,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0,0.0,0.0,23\u0000q","_time":1501291266062}
+[2017-07-29 08:21:09] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:21:09] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501291269174}
+[2017-07-29 08:21:09] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501291269174}
+[2017-07-29 08:21:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:21:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":69,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501291271293}
+[2017-07-29 08:21:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":69,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501291271293}
+[2017-07-29 08:21:13] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:21:13] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501291273427}
+[2017-07-29 08:21:13] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501291273427}
+[2017-07-29 08:31:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 0e 0b 00 00 79 0e 00 00 cb 03 00 00 c6 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff140e0b0000790e0000cb030000c6180000a1010000000e302e302c302e302c302e302c393900db
+[2017-07-29 08:31:11] INFO  [arduino]
+      temp = 2830,
+      humid = 3705,
+      pressure = 971,
+      sound = 6342,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 08:31:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2830,"humid":3705,"pressure":971,"sound":6342,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501291871959}
+[2017-07-29 08:31:15] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:31:15] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":79,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501291875037}
+[2017-07-29 08:31:15] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":79,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501291875037}
+[2017-07-29 08:31:17] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:31:17] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501291877162}
+[2017-07-29 08:31:17] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501291877162}
+[2017-07-29 08:31:19] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:31:19] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501291879279}
+[2017-07-29 08:31:19] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501291879279}
+[2017-07-29 08:41:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 18 0b 00 00 60 0e 00 00 cb 03 00 00 cc 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14180b0000600e0000cb030000cc180000a1010000000e302e302c302e302c302e302c323500d9
+[2017-07-29 08:41:07] INFO  [arduino]
+      temp = 2840,
+      humid = 3680,
+      pressure = 971,
+      sound = 6348,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 08:41:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2840,"humid":3680,"pressure":971,"sound":6348,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501292467120}
+[2017-07-29 08:41:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:41:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501292470211}
+[2017-07-29 08:41:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501292470211}
+[2017-07-29 08:41:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:41:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501292472349}
+[2017-07-29 08:41:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501292472349}
+[2017-07-29 08:41:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:41:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501292474452}
+[2017-07-29 08:41:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501292474452}
+[2017-07-29 08:51:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 1e 0b 00 00 49 0e 00 00 cb 03 00 00 a2 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff141e0b0000490e0000cb030000a2180000a1010000000e302e302c302e302c302e302c3939009f
+[2017-07-29 08:51:04] INFO  [arduino]
+      temp = 2846,
+      humid = 3657,
+      pressure = 971,
+      sound = 6306,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 08:51:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2846,"humid":3657,"pressure":971,"sound":6306,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501293064830}
+[2017-07-29 08:51:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:51:07] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501293067903}
+[2017-07-29 08:51:07] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501293067903}
+[2017-07-29 08:51:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:51:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501293070025}
+[2017-07-29 08:51:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501293070025}
+[2017-07-29 08:51:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 08:51:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501293072145}
+[2017-07-29 08:51:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":855,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501293072145}
+[2017-07-29 09:01:38] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 20 0b 00 00 70 0e 00 00 cb 03 00 00 82 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14200b0000700e0000cb03000082180000a1010000000e302e302c302e302c302e302c323600bc
+[2017-07-29 09:01:38] INFO  [arduino]
+      temp = 2848,
+      humid = 3696,
+      pressure = 971,
+      sound = 6274,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,26
+      
+[2017-07-29 09:01:38] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2848,"humid":3696,"pressure":971,"sound":6274,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,26","_time":1501293698278}
+[2017-07-29 09:01:41] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:01:41] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":80,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501293701401}
+[2017-07-29 09:01:41] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":80,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501293701401}
+[2017-07-29 09:01:43] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:01:43] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501293703521}
+[2017-07-29 09:01:43] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501293703521}
+[2017-07-29 09:01:45] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:01:45] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501293705665}
+[2017-07-29 09:01:45] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501293705665}
+[2017-07-29 09:11:26] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 27 0b 00 00 bc 0e 00 00 cb 03 00 00 94 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14270b0000bc0e0000cb03000094180000a1010000000e302e302c302e302c302e302c32350062
+[2017-07-29 09:11:26] INFO  [arduino]
+      temp = 2855,
+      humid = 3772,
+      pressure = 971,
+      sound = 6292,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 09:11:26] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2855,"humid":3772,"pressure":971,"sound":6292,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501294286246}
+[2017-07-29 09:11:29] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:11:29] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":78,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501294289332}
+[2017-07-29 09:11:29] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":78,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501294289332}
+[2017-07-29 09:11:31] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:11:31] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501294291462}
+[2017-07-29 09:11:31] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501294291462}
+[2017-07-29 09:11:33] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:11:33] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501294293578}
+[2017-07-29 09:11:33] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501294293578}
+[2017-07-29 09:21:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 35 0b 00 00 09 0f 00 00 cb 03 00 00 a3 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14350b0000090f0000cb030000a3180000a1010000000e302e302c302e302c302e302c323300f5
+[2017-07-29 09:21:06] INFO  [arduino]
+      temp = 2869,
+      humid = 3849,
+      pressure = 971,
+      sound = 6307,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 09:21:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2869,"humid":3849,"pressure":971,"sound":6307,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501294866721}
+[2017-07-29 09:21:09] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:21:09] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501294869808}
+[2017-07-29 09:21:09] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501294869808}
+[2017-07-29 09:21:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:21:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501294871924}
+[2017-07-29 09:21:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501294871924}
+[2017-07-29 09:21:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:21:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501294874044}
+[2017-07-29 09:21:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501294874044}
+[2017-07-29 09:31:09] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 47 0b 00 00 0e 0f 00 00 cb 03 00 00 a4 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14470b00000e0f0000cb030000a4180000a1010000000e302e302c302e302c302e302c32340080
+[2017-07-29 09:31:09] INFO  [arduino]
+      temp = 2887,
+      humid = 3854,
+      pressure = 971,
+      sound = 6308,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 09:31:09] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2887,"humid":3854,"pressure":971,"sound":6308,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501295469182}
+[2017-07-29 09:31:12] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:31:12] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501295472300}
+[2017-07-29 09:31:12] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":870,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501295472300}
+[2017-07-29 09:31:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:31:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501295474457}
+[2017-07-29 09:31:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501295474457}
+[2017-07-29 09:31:16] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:31:16] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501295476539}
+[2017-07-29 09:31:16] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501295476539}
+[2017-07-29 09:41:36] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 53 0b 00 00 36 0f 00 00 cb 03 00 00 bb 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14530b0000360f0000cb030000bb180000a0010000000e302e302c302e302c302e302c393900b4
+[2017-07-29 09:41:36] INFO  [arduino]
+      temp = 2899,
+      humid = 3894,
+      pressure = 971,
+      sound = 6331,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 09:41:36] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2899,"humid":3894,"pressure":971,"sound":6331,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501296096306}
+[2017-07-29 09:41:39] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:41:39] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":79,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501296099426}
+[2017-07-29 09:41:39] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":79,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501296099426}
+[2017-07-29 09:41:41] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:41:41] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501296101541}
+[2017-07-29 09:41:41] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501296101541}
+[2017-07-29 09:41:43] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:41:43] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501296103660}
+[2017-07-29 09:41:43] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501296103660}
+[2017-07-29 09:51:34] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 62 0b 00 00 71 0f 00 00 cb 03 00 00 bd 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14620b0000710f0000cb030000bd180000a1010000000e302e302c302e302c302e302c323200c5
+[2017-07-29 09:51:34] INFO  [arduino]
+      temp = 2914,
+      humid = 3953,
+      pressure = 971,
+      sound = 6333,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 09:51:34] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2914,"humid":3953,"pressure":971,"sound":6333,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,22","_time":1501296694071}
+[2017-07-29 09:51:37] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:51:37] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501296697202}
+[2017-07-29 09:51:37] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501296697202}
+[2017-07-29 09:51:39] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:51:39] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501296699310}
+[2017-07-29 09:51:39] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501296699310}
+[2017-07-29 09:51:41] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 09:51:41] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":54,"batt":854,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501296701437}
+[2017-07-29 09:51:41] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":54,"batt":854,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501296701437}
+[2017-07-29 10:00:58] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 66 0b 00 00 bd 0f 00 00 cb 03 00 00 bd 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14660b0000bd0f0000cb030000bd180000a1010000000e302e302c302e302c302e302c3233000c
+[2017-07-29 10:00:58] INFO  [arduino]
+      temp = 2918,
+      humid = 4029,
+      pressure = 971,
+      sound = 6333,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 10:00:58] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2918,"humid":4029,"pressure":971,"sound":6333,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501297258043}
+[2017-07-29 10:01:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:01:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501297261167}
+[2017-07-29 10:01:01] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":82,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501297261167}
+[2017-07-29 10:01:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:01:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501297263305}
+[2017-07-29 10:01:03] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501297263305}
+[2017-07-29 10:01:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:01:05] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":48,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501297265403}
+[2017-07-29 10:01:05] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":48,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501297265403}
+[2017-07-29 10:11:19] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 62 0b 00 00 23 10 00 00 cb 03 00 00 c8 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14620b000023100000cb030000c8180000a1010000000e302e302c302e302c302e302c393900fd
+[2017-07-29 10:11:19] INFO  [arduino]
+      temp = 2914,
+      humid = 4131,
+      pressure = 971,
+      sound = 6344,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 10:11:19] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2914,"humid":4131,"pressure":971,"sound":6344,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501297879731}
+[2017-07-29 10:11:22] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:11:22] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501297882852}
+[2017-07-29 10:11:22] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501297882852}
+[2017-07-29 10:11:24] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:11:24] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501297884974}
+[2017-07-29 10:11:24] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501297884974}
+[2017-07-29 10:11:27] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:11:27] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501297887089}
+[2017-07-29 10:11:27] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501297887089}
+[2017-07-29 10:21:11] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 60 0b 00 00 68 10 00 00 cb 03 00 00 e2 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14600b000068100000cb030000e2180000a1010000000e302e302c302e302c302e302c3231009d
+[2017-07-29 10:21:11] INFO  [arduino]
+      temp = 2912,
+      humid = 4200,
+      pressure = 971,
+      sound = 6370,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-29 10:21:11] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2912,"humid":4200,"pressure":971,"sound":6370,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,21","_time":1501298471302}
+[2017-07-29 10:21:14] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:21:14] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501298474372}
+[2017-07-29 10:21:14] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501298474372}
+[2017-07-29 10:21:16] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:21:16] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501298476522}
+[2017-07-29 10:21:16] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501298476522}
+[2017-07-29 10:21:18] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:21:18] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501298478622}
+[2017-07-29 10:21:18] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501298478622}
+[2017-07-29 10:31:01] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 6c 0b 00 00 19 12 00 00 cb 03 00 00 c2 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff146c0b000019120000cb030000c2180000a1010000000e302e302c302e302c302e302c323400c7
+[2017-07-29 10:31:01] INFO  [arduino]
+      temp = 2924,
+      humid = 4633,
+      pressure = 971,
+      sound = 6338,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 10:31:01] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2924,"humid":4633,"pressure":971,"sound":6338,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501299061429}
+[2017-07-29 10:31:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:31:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501299064530}
+[2017-07-29 10:31:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501299064530}
+[2017-07-29 10:31:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:31:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501299066650}
+[2017-07-29 10:31:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501299066650}
+[2017-07-29 10:31:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:31:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501299068771}
+[2017-07-29 10:31:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501299068771}
+[2017-07-29 10:41:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 79 0b 00 00 e8 12 00 00 cb 03 00 00 c8 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14790b0000e8120000cb030000c8180000a1010000000e302e302c302e302c302e302c3939002f
+[2017-07-29 10:41:03] INFO  [arduino]
+      temp = 2937,
+      humid = 4840,
+      pressure = 971,
+      sound = 6344,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 10:41:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2937,"humid":4840,"pressure":971,"sound":6344,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501299663607}
+[2017-07-29 10:41:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:41:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":74,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501299666715}
+[2017-07-29 10:41:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":74,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501299666715}
+[2017-07-29 10:41:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:41:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501299668836}
+[2017-07-29 10:41:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501299668836}
+[2017-07-29 10:41:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:41:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501299670998}
+[2017-07-29 10:41:11] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":857,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501299670998}
+[2017-07-29 10:51:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 75 0b 00 00 e6 11 00 00 cb 03 00 00 cd 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14750b0000e6110000cb030000cd180000a1010000000e302e302c302e302c302e302c3235002c
+[2017-07-29 10:51:03] INFO  [arduino]
+      temp = 2933,
+      humid = 4582,
+      pressure = 971,
+      sound = 6349,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 10:51:03] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2933,"humid":4582,"pressure":971,"sound":6349,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,25","_time":1501300263481}
+[2017-07-29 10:51:06] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:51:06] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501300266587}
+[2017-07-29 10:51:06] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":83,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501300266587}
+[2017-07-29 10:51:08] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:51:08] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501300268721}
+[2017-07-29 10:51:08] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501300268721}
+[2017-07-29 10:51:10] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 10:51:10] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501300270851}
+[2017-07-29 10:51:10] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":55,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501300270851}
+[2017-07-29 11:01:32] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 6d 0b 00 00 18 11 00 00 cb 03 00 00 d3 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff146d0b000018110000cb030000d3180000a1010000000e302e302c302e302c302e302c323300d2
+[2017-07-29 11:01:32] INFO  [arduino]
+      temp = 2925,
+      humid = 4376,
+      pressure = 971,
+      sound = 6355,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 11:01:32] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2925,"humid":4376,"pressure":971,"sound":6355,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501300892921}
+[2017-07-29 11:01:36] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:01:36] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501300896035}
+[2017-07-29 11:01:36] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501300896035}
+[2017-07-29 11:01:38] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:01:38] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501300898162}
+[2017-07-29 11:01:38] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":71,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501300898162}
+[2017-07-29 11:01:40] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:01:40] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":52,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501300900278}
+[2017-07-29 11:01:40] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":52,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501300900278}
+[2017-07-29 11:11:18] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 67 0b 00 00 8a 10 00 00 cb 03 00 00 e1 18 00 00 a0 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14670b00008a100000cb030000e1180000a0010000000e302e302c302e302c302e302c39390079
+[2017-07-29 11:11:18] INFO  [arduino]
+      temp = 2919,
+      humid = 4234,
+      pressure = 971,
+      sound = 6369,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 11:11:18] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":416,"temp":2919,"humid":4234,"pressure":971,"sound":6369,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,99","_time":1501301478148}
+[2017-07-29 11:11:21] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:11:21] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501301481248}
+[2017-07-29 11:11:21] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":869,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501301481248}
+[2017-07-29 11:11:23] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:11:23] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501301483388}
+[2017-07-29 11:11:23] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":872,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501301483388}
+[2017-07-29 11:11:25] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:11:25] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501301485491}
+[2017-07-29 11:11:25] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":50,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501301485491}
+[2017-07-29 11:20:57] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+parsing FAFB Device Registration... payload =  <Buffer fa fb ff ff ff ff 5c cf 7f 09 50 b3 ff ff ff ff ff ff 14 64 0b 00 00 27 10 00 00 cb 03 00 00 d2 18 00 00 a1 01 00 00 00 0e 30 2e 30 2c 30 2e 30 2c 30 ... >
+hex =  fafbffffffff5ccf7f0950b3ffffffffffff14640b000027100000cb030000d2180000a1010000000e302e302c302e302c302e302c323300e4
+[2017-07-29 11:20:57] INFO  [arduino]
+      temp = 2916,
+      humid = 4135,
+      pressure = 971,
+      sound = 6354,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 11:20:57] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/command, payload = {"batt":417,"temp":2916,"humid":4135,"pressure":971,"sound":6354,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,23","_time":1501302057157}
+[2017-07-29 11:21:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:21:00] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node2/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501302060254}
+[2017-07-29 11:21:00] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ecf7f09cc09/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":85,"batt":868,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501302060254}
+[2017-07-29 11:21:02] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:21:02] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node4/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501302062354}
+[2017-07-29 11:21:02] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/5ccf7f09520e/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":70,"batt":871,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501302062354}
+[2017-07-29 11:21:04] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:21:04] INFO published to topic: TRAFFY_V2/5ccf7f0950b3/Patong4_node3/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501302064472}
+[2017-07-29 11:21:04] INFO published to topic: TRAFFY_V2/raw/5ccf7f0950b3/18fe34eea100/status, payload = {"type":"01020309","val1":0,"val2":0,"val3":56,"batt":856,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501302064472}
+[2017-07-29 11:21:31] INFO NODE_ENV = undefined
+[2017-07-29 11:21:31] INFO config 
+{ MQTT: 
+   { SUB_TOPIC: 'CMMC/TCP_MQTT_FORWARDER/1',
+     PUB_PREFIX: 'TRAFFY_V2',
+     HOST: 'localhost',
+     USERNAME: '',
+     PASSWORD: '' } }
+[2017-07-29 11:21:31] INFO starting application esp-now-mqtt-nodejs - v.0.0.1
+[2017-07-29 11:21:31] INFO mqtt connected being subscribed to CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:21:31] INFO send subscriptions to [{"topic":"CMMC/TCP_MQTT_FORWARDER/1","qos":0}]
+[2017-07-29 11:31:00] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:31:00] INFO  [arduino]
+      temp = 2917,
+      humid = 4078,
+      pressure = 971,
+      sound = 6347,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-29 11:31:03] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:31:05] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:31:07] INFO message arrived topic = CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:35:06] INFO NODE_ENV = undefined
+[2017-07-29 11:35:06] INFO config 
+{ MQTT: 
+   { SUB_TOPIC: 'CMMC/TCP_MQTT_FORWARDER/1',
+     PUB_PREFIX: 'TRAFFY_V2',
+     HOST: 'localhost',
+     USERNAME: '',
+     PASSWORD: '' } }
+[2017-07-29 11:35:07] INFO starting application esp-now-mqtt-nodejs - v.0.0.1
+[2017-07-29 11:35:07] INFO mqtt connected being subscribed to CMMC/TCP_MQTT_FORWARDER/1
+[2017-07-29 11:35:07] INFO send subscriptions to [{"topic":"CMMC/TCP_MQTT_FORWARDER/1","qos":0}]
+[2017-07-29 11:41:30] INFO  [arduino]
+      temp = 2925,
+      humid = 4035,
+      pressure = 971,
+      sound = 6365,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 11:50:56] INFO  [arduino]
+      temp = 2931,
+      humid = 3941,
+      pressure = 970,
+      sound = 6348,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 12:01:06] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff146d0b0000
+[2017-07-29 12:11:00] INFO  [arduino]
+      temp = 2928,
+      humid = 3931,
+      pressure = 970,
+      sound = 6365,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 12:20:59] INFO  [arduino]
+      temp = 2940,
+      humid = 3964,
+      pressure = 970,
+      sound = 6346,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 12:31:16] INFO  [arduino]
+      temp = 2943,
+      humid = 3891,
+      pressure = 970,
+      sound = 6321,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 12:41:31] INFO  [arduino]
+      temp = 2944,
+      humid = 3955,
+      pressure = 970,
+      sound = 6346,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 12:51:14] INFO  [arduino]
+      temp = 2946,
+      humid = 4004,
+      pressure = 969,
+      sound = 6334,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 13:01:54] INFO  [arduino]
+      temp = 2954,
+      humid = 3963,
+      pressure = 969,
+      sound = 6337,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 13:10:59] INFO  [arduino]
+      temp = 2956,
+      humid = 3892,
+      pressure = 969,
+      sound = 6350,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 13:21:26] INFO  [arduino]
+      temp = 2954,
+      humid = 3856,
+      pressure = 969,
+      sound = 6362,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 13:30:53] INFO  [arduino]
+      temp = 2952,
+      humid = 3860,
+      pressure = 968,
+      sound = 6368,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 13:31:03] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 13:40:59] INFO  [arduino]
+      temp = 2956,
+      humid = 3793,
+      pressure = 968,
+      sound = 6344,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 13:51:16] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff14700b0000be0e0000c8030000bc180000a1010000000e302e302c302e302c302e302c323300
+[2017-07-29 14:00:54] INFO  [arduino]
+      temp = 2861,
+      humid = 3673,
+      pressure = 968,
+      sound = 6345,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 14:10:55] INFO  [arduino]
+      temp = 2811,
+      humid = 3584,
+      pressure = 968,
+      sound = 6289,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 14:21:30] INFO  [arduino]
+      temp = 2777,
+      humid = 3517,
+      pressure = 967,
+      sound = 6282,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 14:31:10] INFO  [arduino]
+      temp = 2748,
+      humid = 3480,
+      pressure = 967,
+      sound = 6165,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 14:41:09] INFO  [arduino]
+      temp = 2726,
+      humid = 3437,
+      pressure = 967,
+      sound = 6149,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 14:51:02] INFO  [arduino]
+      temp = 2708,
+      humid = 3429,
+      pressure = 967,
+      sound = 6143,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 15:01:29] INFO  [arduino]
+      temp = 2637,
+      humid = 3647,
+      pressure = 967,
+      sound = 6168,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 15:11:01] INFO  [arduino]
+      temp = 2593,
+      humid = 4106,
+      pressure = 967,
+      sound = 6151,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 15:21:37] INFO  [arduino]
+      temp = 2600,
+      humid = 4332,
+      pressure = 967,
+      sound = 6103,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-29 15:30:58] INFO  [arduino]
+      temp = 2603,
+      humid = 4224,
+      pressure = 966,
+      sound = 6084,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 15:40:59] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff14220a0000
+[2017-07-29 15:51:03] INFO  [arduino]
+      temp = 2691,
+      humid = 4172,
+      pressure = 966,
+      sound = 6130,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 16:01:02] INFO  [arduino]
+      temp = 2774,
+      humid = 4142,
+      pressure = 966,
+      sound = 6165,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-29 16:11:01] INFO  [arduino]
+      temp = 2828,
+      humid = 4186,
+      pressure = 966,
+      sound = 6191,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 16:21:05] INFO  [arduino]
+      temp = 2868,
+      humid = 4373,
+      pressure = 966,
+      sound = 6249,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 16:31:09] INFO  [arduino]
+      temp = 2895,
+      humid = 4272,
+      pressure = 966,
+      sound = 6241,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 16:41:10] INFO  [arduino]
+      temp = 2914,
+      humid = 4246,
+      pressure = 966,
+      sound = 6261,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 16:51:33] INFO  [arduino]
+      temp = 2921,
+      humid = 4204,
+      pressure = 966,
+      sound = 6261,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 17:02:19] INFO  [arduino]
+      temp = 2930,
+      humid = 4115,
+      pressure = 966,
+      sound = 6257,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 17:11:29] INFO  [arduino]
+      temp = 2921,
+      humid = 3913,
+      pressure = 966,
+      sound = 6411,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 17:21:07] INFO  [arduino]
+      temp = 2885,
+      humid = 3678,
+      pressure = 966,
+      sound = 6336,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 17:31:35] INFO invalid packet header, hex =  fafbffffffff5ccf7f0950b3ffffffffffff141f0b0000
+[2017-07-29 17:31:45] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 17:41:47] INFO  [arduino]
+      temp = 2834,
+      humid = 3934,
+      pressure = 966,
+      sound = 6315,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 17:51:33] INFO  [arduino]
+      temp = 2863,
+      humid = 3969,
+      pressure = 966,
+      sound = 6285,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 17:51:43] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 18:01:29] INFO  [arduino]
+      temp = 2837,
+      humid = 3674,
+      pressure = 966,
+      sound = 6269,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 18:01:39] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 18:11:08] INFO  [arduino]
+      temp = 2810,
+      humid = 3742,
+      pressure = 967,
+      sound = 6294,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 18:11:17] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 18:21:13] INFO  [arduino]
+      temp = 2793,
+      humid = 3859,
+      pressure = 967,
+      sound = 6253,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 18:31:48] INFO  [arduino]
+      temp = 2782,
+      humid = 3890,
+      pressure = 967,
+      sound = 6244,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 18:31:58] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 18:41:44] INFO  [arduino]
+      temp = 2773,
+      humid = 3850,
+      pressure = 967,
+      sound = 6237,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,26
+      
+[2017-07-29 18:51:01] INFO  [arduino]
+      temp = 2764,
+      humid = 3947,
+      pressure = 967,
+      sound = 6234,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 19:01:31] INFO  [arduino]
+      temp = 2756,
+      humid = 3972,
+      pressure = 968,
+      sound = 6210,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 19:11:19] INFO  [arduino]
+      temp = 2779,
+      humid = 4759,
+      pressure = 968,
+      sound = 6224,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 19:21:30] INFO  [arduino]
+      temp = 2816,
+      humid = 4657,
+      pressure = 968,
+      sound = 6227,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 19:31:25] INFO  [arduino]
+      temp = 2847,
+      humid = 4668,
+      pressure = 968,
+      sound = 6214,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 19:41:30] INFO  [arduino]
+      temp = 2870,
+      humid = 4707,
+      pressure = 968,
+      sound = 6229,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-29 19:51:13] INFO  [arduino]
+      temp = 2885,
+      humid = 4653,
+      pressure = 968,
+      sound = 6225,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-29 20:01:19] INFO  [arduino]
+      temp = 2894,
+      humid = 4676,
+      pressure = 968,
+      sound = 6263,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 20:11:12] INFO  [arduino]
+      temp = 2901,
+      humid = 4706,
+      pressure = 968,
+      sound = 6278,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 20:21:07] INFO  [arduino]
+      temp = 2905,
+      humid = 4828,
+      pressure = 968,
+      sound = 6314,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,21
+      
+[2017-07-29 20:31:44] INFO  [arduino]
+      temp = 2913,
+      humid = 4907,
+      pressure = 969,
+      sound = 6297,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 20:41:20] INFO  [arduino]
+      temp = 2923,
+      humid = 4943,
+      pressure = 969,
+      sound = 6297,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,99
+      
+[2017-07-29 20:51:40] INFO  [arduino]
+      temp = 2931,
+      humid = 4935,
+      pressure = 969,
+      sound = 6312,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 21:02:36] INFO  [arduino]
+      temp = 2936,
+      humid = 4972,
+      pressure = 969,
+      sound = 6339,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 21:11:23] INFO  [arduino]
+      temp = 2939,
+      humid = 4958,
+      pressure = 969,
+      sound = 6322,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 21:21:50] INFO  [arduino]
+      temp = 2941,
+      humid = 4956,
+      pressure = 969,
+      sound = 6323,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 21:31:57] INFO  [arduino]
+      temp = 2943,
+      humid = 4933,
+      pressure = 969,
+      sound = 6329,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 21:41:01] INFO  [arduino]
+      temp = 2944,
+      humid = 4971,
+      pressure = 969,
+      sound = 6330,
+      batt = 416
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,22
+      
+[2017-07-29 21:51:13] INFO  [arduino]
+      temp = 2940,
+      humid = 4947,
+      pressure = 969,
+      sound = 6330,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 22:01:25] INFO  [arduino]
+      temp = 2944,
+      humid = 4964,
+      pressure = 970,
+      sound = 6314,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 22:11:02] INFO  [arduino]
+      temp = 2945,
+      humid = 4948,
+      pressure = 970,
+      sound = 6317,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 22:21:38] INFO  [arduino]
+      temp = 2945,
+      humid = 4924,
+      pressure = 970,
+      sound = 6286,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 22:31:30] INFO  [arduino]
+      temp = 2944,
+      humid = 4968,
+      pressure = 970,
+      sound = 6283,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,20
+      
+[2017-07-29 22:31:40] INFO invalid packet header, hex =  fcfd5ccf7f0950b318fe34daf17e30fffa010203090000000000000000
+[2017-07-29 22:41:10] INFO  [arduino]
+      temp = 2941,
+      humid = 5053,
+      pressure = 970,
+      sound = 6302,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,23
+      
+[2017-07-29 22:51:09] INFO  [arduino]
+      temp = 2943,
+      humid = 5061,
+      pressure = 970,
+      sound = 6294,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
+[2017-07-29 23:01:01] INFO  [arduino]
+      temp = 2945,
+      humid = 5107,
+      pressure = 970,
+      sound = 6295,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 23:11:13] INFO  [arduino]
+      temp = 2945,
+      humid = 5226,
+      pressure = 970,
+      sound = 6299,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 23:21:15] INFO  [arduino]
+      temp = 2937,
+      humid = 5265,
+      pressure = 970,
+      sound = 6295,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 23:31:40] INFO  [arduino]
+      temp = 2937,
+      humid = 5155,
+      pressure = 970,
+      sound = 6302,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 23:41:06] INFO  [arduino]
+      temp = 2937,
+      humid = 5152,
+      pressure = 970,
+      sound = 6311,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-07-29 23:51:36] INFO  [arduino]
+      temp = 2938,
+      humid = 5284,
+      pressure = 970,
+      sound = 6321,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,25
+      
