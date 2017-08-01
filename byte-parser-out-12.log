@@ -150,3 +150,41 @@
 [2017-08-02 00:32:11][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/5ecf7f09cc09/status
 [2017-08-02 00:32:11] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
 [2017-08-02 00:32:11] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":862,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501608731306,"distance_cm":84,"batt_raw":862}
+[2017-08-02 00:41:22][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:22] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:22] INFO  [arduino]
+      temp = 2835,
+      humid = 4064,
+      pressure = 970,
+      sound = 6343,
+      batt = 417
+      gpsBytesLen = 14
+      gpsString= 0.0,0.0,0.0,24
+      
+[2017-08-02 00:41:22][C*] INFO being published to TRAFFY_V2/master/5ccf7f0950b3/status
+[2017-08-02 00:41:22] INFO forwarding type = PAYLOAD_FAFB_TYPE_DEVICE_REGISTRATION
+[2017-08-02 00:41:22] INFO msg = {"batt":417,"mac1":"5ccf7f0950b3","mac2":"ffffffffffff","gpsString":"0.0,0.0,0.0,24","_time":1501609282414,"temperature_c":28.35,"sound_db_avg":63.43,"humid_percent_rh":40.64,"pressure_hPa":9.7,"batt_raw":417}
+[2017-08-02 00:41:25][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:25] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:25][C*] INFO being published to TRAFFY_V2/client/5ccf7f0950b3/Patong4_node1/status
+[2017-08-02 00:41:25][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34daf17e/status
+[2017-08-02 00:41:25] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
+[2017-08-02 00:41:25] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":26,"batt":857,"name":"Patong4_node1","mac1":"5ccf7f0950b3","mac2":"18fe34daf17e","_time":1501609285562,"distance_cm":26,"batt_raw":857}
+[2017-08-02 00:41:27][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:27] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:27][C*] INFO being published to TRAFFY_V2/client/5ccf7f0950b3/Patong4_node3/status
+[2017-08-02 00:41:27][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34eea100/status
+[2017-08-02 00:41:27] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
+[2017-08-02 00:41:27] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":47,"batt":848,"name":"Patong4_node3","mac1":"5ccf7f0950b3","mac2":"18fe34eea100","_time":1501609287790,"distance_cm":47,"batt_raw":848}
+[2017-08-02 00:41:29][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:29] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:29][C*] INFO being published to TRAFFY_V2/client/5ccf7f0950b3/Patong4_node4/status
+[2017-08-02 00:41:29][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/5ccf7f09520e/status
+[2017-08-02 00:41:29] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
+[2017-08-02 00:41:29] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":867,"name":"Patong4_node4","mac1":"5ccf7f0950b3","mac2":"5ccf7f09520e","_time":1501609289948,"distance_cm":84,"batt_raw":867}
+[2017-08-02 00:41:32][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:32] INFO [app] -  message arrived topic = TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-02 00:41:32][C*] INFO being published to TRAFFY_V2/client/5ccf7f0950b3/Patong4_node2/status
+[2017-08-02 00:41:32][C*] INFO being published to TRAFFY_V2/client/raw/5ccf7f0950b3/5ecf7f09cc09/status
+[2017-08-02 00:41:32] INFO forwarding type = PAYLOAD_FCFD_TYPE_DATA
+[2017-08-02 00:41:32] INFO msg = {"type":"01020309","val1":0,"val2":0,"val3":84,"batt":863,"name":"Patong4_node2","mac1":"5ccf7f0950b3","mac2":"5ecf7f09cc09","_time":1501609292169,"distance_cm":84,"batt_raw":863}
