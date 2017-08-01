@@ -390,3 +390,25 @@
 [2017-08-01 23:40:59][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/5ccf7f0950b3/Patong4_node2/status
 [2017-08-01 23:40:59][C*] INFO message arrived topic =  TRAFFY_V2/client/raw/5ccf7f0950b3/5ecf7f09cc09/status
 [2017-08-01 23:40:59][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/raw/5ccf7f0950b3/5ecf7f09cc09/status
+[2017-08-01 23:50:53][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:53][C*] INFO being published to NAT/STAGING/TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:53][C*] INFO message arrived topic =  TRAFFY_V2/master/5ccf7f0950b3/status
+[2017-08-01 23:50:53][C*] INFO being published to NAT/STAGING/TRAFFY_V2/master/5ccf7f0950b3/status
+[2017-08-01 23:50:57][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:57][C*] INFO being published to NAT/STAGING/TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:57][C*] INFO message arrived topic =  TRAFFY_V2/client/5ccf7f0950b3/Patong4_node1/status
+[2017-08-01 23:50:57][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/5ccf7f0950b3/Patong4_node1/status
+[2017-08-01 23:50:57][C*] INFO message arrived topic =  TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34daf17e/status
+[2017-08-01 23:50:57][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34daf17e/status
+[2017-08-01 23:50:59][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:59][C*] INFO being published to NAT/STAGING/TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:50:59][C*] INFO message arrived topic =  TRAFFY_V2/client/5ccf7f0950b3/Patong4_node3/status
+[2017-08-01 23:50:59][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/5ccf7f0950b3/Patong4_node3/status
+[2017-08-01 23:50:59][C*] INFO message arrived topic =  TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34eea100/status
+[2017-08-01 23:50:59][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/raw/5ccf7f0950b3/18fe34eea100/status
+[2017-08-01 23:51:01][C*] INFO message arrived topic =  TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:51:01][C*] INFO being published to NAT/STAGING/TRAFFY/TCP_MQTT_FORWARDER/1
+[2017-08-01 23:51:01][C*] INFO message arrived topic =  TRAFFY_V2/client/5ccf7f0950b3/Patong4_node4/status
+[2017-08-01 23:51:01][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/5ccf7f0950b3/Patong4_node4/status
+[2017-08-01 23:51:01][C*] INFO message arrived topic =  TRAFFY_V2/client/raw/5ccf7f0950b3/5ccf7f09520e/status
+[2017-08-01 23:51:01][C*] INFO being published to NAT/STAGING/TRAFFY_V2/client/raw/5ccf7f0950b3/5ccf7f09520e/status
